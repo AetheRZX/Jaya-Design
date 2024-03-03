@@ -1,3 +1,8 @@
+.jaya-banner {
+  width: 100%;
+  z-index: 0;
+}
+
 .navbar {
     align-items: center;
     background: #f8f8f8;
@@ -15,24 +20,26 @@
 }
 
 a:hover {
-    color: #aa3030
+    color: #0077b6
 }
 
 .navbar-container {
-    align-items: center;
+    
     display: flex;
+    align-items: center;
     height: 80px;
     justify-content: center;
     max-width: 1500px
+    
 }
 
-.nav-logo {
+/* .nav-logo {
     align-items: center;
     display: block;
     margin-bottom: auto;
     margin-right: 180px;
     margin-top: auto
-}
+} */
 
 .jaya-design-logo {
     display: block;
@@ -52,7 +59,7 @@ a:hover {
     grid-gap: 10px;
     display: grid;
     grid-template-columns: repeat(5,auto);
-    justify-content: end;
+    justify-content: center;
     list-style: none;
     margin-right: 2rem;
     text-align: center;
