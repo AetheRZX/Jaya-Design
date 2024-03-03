@@ -1,7 +1,16 @@
-.jaya-banner {
-  width: 100%;
-  z-index: 0;
-}
+
+  
+  .jaya-banner {
+    display:block;
+    max-width:100%;
+    height:auto;
+  }
+
+/* .jaya-banner{
+    display: block;
+    width: 100%;
+    z-index: 0;
+} */
 
 .navbar {
     align-items: center;
